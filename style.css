@@ -20,4 +20,12 @@ img {
 #input-parent {
     width: 160px;
     margin: 0 auto;
-  }
+}
+
+.guess {
+    display: inline;    
+    font-size: 60px;
+    border: solid 1px black;
+    padding: 0 25px;
+    border-radius: 10%;
+} 
