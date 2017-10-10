@@ -19,7 +19,8 @@ img {
 }
 #input-parent {
     width: 160px;
-    margin: 0 auto;
+    margin: 5% auto 50px;
+    position: relative;
 }
 
 .guess {
@@ -29,3 +30,35 @@ img {
     padding: 0 25px;
     border-radius: 10%;
 } 
+
+/* #players-input {
+    position: relative;
+    width: 160px;
+    height: 160px;    
+    border-radius: 50%;
+}
+
+#submit {
+    position: relative;
+    bottom: 70px;
+    left: 45px;
+    width: 85px;
+    height: 85px;    
+    border-radius: 50%;
+} */
+
+#players-input {
+    font-size: 60px;
+    width: 160px;
+    height: 160px;    
+    border-radius: 50%;
+}
+
+#submit {
+    position: absolute;
+    top: 110px;
+    left: 110px;
+    width: 60px;
+    height: 60px;   
+    border-radius: 50%;
+}
