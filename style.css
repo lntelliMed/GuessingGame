@@ -1,3 +1,6 @@
+body {
+    background-image: url("pexels-photo-273011.jpeg");
+}
 .center {
   text-align: center;
 }
@@ -62,3 +65,10 @@ img {
     height: 60px;   
     border-radius: 50%;
 }
+
+#app {
+    width: 60%;
+    margin: 50px auto;
+    background-color: rgba(256, 256, 256, 0.3);
+}
+
